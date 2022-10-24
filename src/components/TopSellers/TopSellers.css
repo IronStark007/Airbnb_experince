@@ -46,6 +46,12 @@
         display: none;
     }
 
+    .top-sellers .title-scroll h1 {
+        font-size: 23px;
+        font-weight: 400;
+        padding: 0px 2px;
+    }
+
     .top-sellers .right {
         display: block;
         float: right;
