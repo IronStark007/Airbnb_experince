@@ -1,7 +1,7 @@
 import './TopSellers.css';
 import '../utils.css';
-import next from '../../static/next.svg';
-import prev from '../../static/prev.svg';
+import prev from '../../static/back.png';
+import next from '../../static/next.png';
 import { useRef } from 'react';
 import SellerCard from '../SellerCard/SellerCard';
 

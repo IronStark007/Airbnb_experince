@@ -1,9 +1,9 @@
 import './ThisWeek.css';
 import '../utils.css';
-import next from '../../static/next.svg';
-import prev from '../../static/prev.svg';
 import WeekCard from '../WeekCard/WeekCard';
 import { useRef } from 'react';
+import prev from '../../static/back.png';
+import next from '../../static/next.png';
 
 function ThisWeek() {
   let week = [
@@ -23,7 +23,7 @@ function ThisWeek() {
     <div className="thisweek">
       <div className='title-scroll flex-between'>
         <h1>New this week</h1>
-        <div className='scroll'>
+        <div className='scroll pointer'>
           <img className='pointer prev' onClick={slideLeft} src={prev} alt="prev" />
           <img className='pointer next' onClick={slideRight} src={next} alt="next" />
         </div>

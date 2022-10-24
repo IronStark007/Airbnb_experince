@@ -5,7 +5,9 @@
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   text-decoration: none;
 }
-
+*::-webkit-scrollbar {
+  width: 0px;
+}
 a {
   color: black;
 }

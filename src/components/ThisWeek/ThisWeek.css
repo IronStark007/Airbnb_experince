@@ -17,6 +17,8 @@
     padding: 10px;
     border: 1px solid #DDDDDD;
     border-radius: 20px;
+    width: 30px;
+    color: black !important;
 }
 
 .title-scroll h1 {
