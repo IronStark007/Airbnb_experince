@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRef } from 'react';
+import CategoryFilter from './components/CategoryFilter/CategoryFilter';
+import CategoryFilterTablet from './components/CategoryFilterTablet/CategoryFilterTablet';
+import Header from './components/Header/Header';
+import ThisWeek from './components/ThisWeek/ThisWeek';
+import TopSellers from './components/TopSellers/TopSellers';
 
 function App() {
+  const menuRef = useRef();
+  const closeMenu = (e) => {
+    e.stopPropagation();
+    menuRef.current.style.display = "none";
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" onClick={closeMenu}>
+      <Header menuRef={menuRef} />
+      <ThisWeek />
+      <CategoryFilter />
+      <CategoryFilterTablet />
+      <TopSellers />
     </div>
   );
 }

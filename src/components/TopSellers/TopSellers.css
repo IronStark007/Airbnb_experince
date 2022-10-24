@@ -1,0 +1,55 @@
+.top-sellers {
+    margin: 10px 80px;
+    margin-right: 0px;
+}
+
+.top-sellers h1 {
+    font-size: 22px;
+}
+
+.scroll .show {
+    text-decoration: underline;
+    font-size: 14px;
+    margin-right: 16px;
+}
+
+.top-sellers .title-scroll .scroll {
+    margin-right: 225px;
+}
+
+.top-sellers .container {
+    max-width: 91vw;
+}
+
+.top-sellers .right {
+    display: none;
+}
+
+@media screen and (max-width:1129px) {
+    .top-sellers {
+        margin: 20px;
+        margin-right: 0px;
+    }
+
+    .top-sellers .container {
+        max-width: 100vw;
+    }
+}
+
+@media screen and (max-width:744px) {
+
+    .top-sellers .container {
+        max-width: 100vw;
+    }
+
+    .top-sellers .scroll {
+        display: none;
+    }
+
+    .top-sellers .right {
+        display: block;
+        float: right;
+        width: 20px;
+        margin: 20px;
+    }
+}

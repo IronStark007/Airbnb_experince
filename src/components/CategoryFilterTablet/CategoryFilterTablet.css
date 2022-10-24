@@ -1,0 +1,32 @@
+.category-filter-tablet {
+    display: none;
+}
+
+@media screen and (max-width:1129px) {
+    .category-filter-tablet {
+        margin: 0 20px;
+    }
+
+}
+
+@media screen and (max-width:744px) {
+    .category-filter-tablet {
+        display: flex;
+        margin: 20px;
+    }
+
+    .categories-tablet {
+        display: flex;
+        flex: 1 0 auto;
+        padding: 7px 14px;
+        margin: 5px;
+        background: #EBEBEB;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+
+    .filters-tablet {
+        border: 1px solid rgb(221, 221, 221);
+        background: white;
+    }
+}

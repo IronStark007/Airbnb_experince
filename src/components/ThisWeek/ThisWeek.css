@@ -1,0 +1,51 @@
+.thisweek {
+    margin: 10px 80px;
+    margin-right: 0;
+}
+
+.title-scroll .scroll {
+    display: flex;
+    align-items: center;
+}
+
+.title-scroll .scroll {
+    width: 12px;
+    margin-right: 140px;
+}
+
+.title-scroll .scroll img {
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+}
+
+.title-scroll h1 {
+    margin: 20px 0px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:1129px) {
+    .thisweek {
+        margin: 0 20px;
+    }
+
+}
+
+@media screen and (max-width:744px) {
+
+    .thisweek {
+        margin: 0px;
+        padding: 20px;
+        background: rgb(235, 235, 235)
+    }
+
+    .thisweek .title-scroll h1 {
+        font-size: 23px;
+        font-weight: 400;
+        padding: 0px 2px;
+    }
+
+    .thisweek .title-scroll .scroll {
+        display: none;
+    }
+}

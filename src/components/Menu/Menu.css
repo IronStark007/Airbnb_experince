@@ -1,0 +1,36 @@
+.menu {
+    display: none;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.menu ul li {
+    padding: 10px 20px !important;
+}
+
+.menu ul li:hover {
+    background: #faf5f5;
+}
+
+.menu .register .signup {
+    font-weight: 600;
+}
+
+.menu ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.menu hr {
+    opacity: 0.1;
+}
+
+.menu ul li {
+    padding: 10px 0;
+}

@@ -1,0 +1,19 @@
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.horizontal-slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    transition: all 0.3s;
+}

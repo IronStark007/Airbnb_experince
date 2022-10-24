@@ -1,0 +1,23 @@
+.navbar {
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+    padding-left: 12px;
+    width: 76px;
+    transition: box-shadow .3s;
+}
+
+.navbar:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.navbar .menubar {
+    width: 18px;
+    height: 18px;
+}
+
+.navbar .profile {
+    width: 30px;
+    height: 30px;
+}
